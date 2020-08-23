@@ -1,2 +1,2 @@
 # iOS-Demos
-Here is my some iOS demo projects developed during training period
+Here is some iOS demo projects developed during training period
