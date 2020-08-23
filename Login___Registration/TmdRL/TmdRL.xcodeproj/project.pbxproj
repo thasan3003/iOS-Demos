@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA62B6219165CF005453B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62B5219165CF005453B9 /* AppDelegate.swift */; };
+		CEDA62B8219165CF005453B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62B7219165CF005453B9 /* ViewController.swift */; };
+		CEDA62BB219165CF005453B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA62B9219165CF005453B9 /* Main.storyboard */; };
+		CEDA62BD219165CF005453B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA62BC219165CF005453B9 /* Assets.xcassets */; };
+		CEDA62C0219165CF005453B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA62BE219165CF005453B9 /* LaunchScreen.storyboard */; };
+		CEDA62CB219165CF005453B9 /* TmdRLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62CA219165CF005453B9 /* TmdRLTests.swift */; };
+		CEDA62D6219165CF005453B9 /* TmdRLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62D5219165CF005453B9 /* TmdRLUITests.swift */; };
+		CEDA62E421916DB2005453B9 /* RViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62E321916DB2005453B9 /* RViewController.swift */; };
+		CEDA62E621916DD1005453B9 /* LIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62E521916DD1005453B9 /* LIViewController.swift */; };
+		CEDA62E821916DE1005453B9 /* PViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA62E721916DE1005453B9 /* PViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDA62C7219165CF005453B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA62AA219165CF005453B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA62B1219165CF005453B9;
+			remoteInfo = TmdRL;
+		};
+		CEDA62D2219165CF005453B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA62AA219165CF005453B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA62B1219165CF005453B9;
+			remoteInfo = TmdRL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDA62B2219165CF005453B9 /* TmdRL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TmdRL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA62B5219165CF005453B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDA62B7219165CF005453B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDA62BA219165CF005453B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDA62BC219165CF005453B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA62BF219165CF005453B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDA62C1219165CF005453B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA62C6219165CF005453B9 /* TmdRLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TmdRLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA62CA219165CF005453B9 /* TmdRLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdRLTests.swift; sourceTree = "<group>"; };
+		CEDA62CC219165CF005453B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA62D1219165CF005453B9 /* TmdRLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TmdRLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA62D5219165CF005453B9 /* TmdRLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdRLUITests.swift; sourceTree = "<group>"; };
+		CEDA62D7219165CF005453B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA62E321916DB2005453B9 /* RViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RViewController.swift; sourceTree = "<group>"; };
+		CEDA62E521916DD1005453B9 /* LIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIViewController.swift; sourceTree = "<group>"; };
+		CEDA62E721916DE1005453B9 /* PViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA62AF219165CF005453B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62C3219165CF005453B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62CE219165CF005453B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA62A9219165CF005453B9 = {
+			isa = PBXGroup;
+			children = (
+				CEDA62B4219165CF005453B9 /* TmdRL */,
+				CEDA62C9219165CF005453B9 /* TmdRLTests */,
+				CEDA62D4219165CF005453B9 /* TmdRLUITests */,
+				CEDA62B3219165CF005453B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA62B3219165CF005453B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA62B2219165CF005453B9 /* TmdRL.app */,
+				CEDA62C6219165CF005453B9 /* TmdRLTests.xctest */,
+				CEDA62D1219165CF005453B9 /* TmdRLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA62B4219165CF005453B9 /* TmdRL */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA62B5219165CF005453B9 /* AppDelegate.swift */,
+				CEDA62B7219165CF005453B9 /* ViewController.swift */,
+				CEDA62B9219165CF005453B9 /* Main.storyboard */,
+				CEDA62BC219165CF005453B9 /* Assets.xcassets */,
+				CEDA62BE219165CF005453B9 /* LaunchScreen.storyboard */,
+				CEDA62C1219165CF005453B9 /* Info.plist */,
+				CEDA62E321916DB2005453B9 /* RViewController.swift */,
+				CEDA62E521916DD1005453B9 /* LIViewController.swift */,
+				CEDA62E721916DE1005453B9 /* PViewController.swift */,
+			);
+			path = TmdRL;
+			sourceTree = "<group>";
+		};
+		CEDA62C9219165CF005453B9 /* TmdRLTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA62CA219165CF005453B9 /* TmdRLTests.swift */,
+				CEDA62CC219165CF005453B9 /* Info.plist */,
+			);
+			path = TmdRLTests;
+			sourceTree = "<group>";
+		};
+		CEDA62D4219165CF005453B9 /* TmdRLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA62D5219165CF005453B9 /* TmdRLUITests.swift */,
+				CEDA62D7219165CF005453B9 /* Info.plist */,
+			);
+			path = TmdRLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA62B1219165CF005453B9 /* TmdRL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA62DA219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRL" */;
+			buildPhases = (
+				CEDA62AE219165CF005453B9 /* Sources */,
+				CEDA62AF219165CF005453B9 /* Frameworks */,
+				CEDA62B0219165CF005453B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TmdRL;
+			productName = TmdRL;
+			productReference = CEDA62B2219165CF005453B9 /* TmdRL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDA62C5219165CF005453B9 /* TmdRLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA62DD219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRLTests" */;
+			buildPhases = (
+				CEDA62C2219165CF005453B9 /* Sources */,
+				CEDA62C3219165CF005453B9 /* Frameworks */,
+				CEDA62C4219165CF005453B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA62C8219165CF005453B9 /* PBXTargetDependency */,
+			);
+			name = TmdRLTests;
+			productName = TmdRLTests;
+			productReference = CEDA62C6219165CF005453B9 /* TmdRLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDA62D0219165CF005453B9 /* TmdRLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA62E0219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRLUITests" */;
+			buildPhases = (
+				CEDA62CD219165CF005453B9 /* Sources */,
+				CEDA62CE219165CF005453B9 /* Frameworks */,
+				CEDA62CF219165CF005453B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA62D3219165CF005453B9 /* PBXTargetDependency */,
+			);
+			name = TmdRLUITests;
+			productName = TmdRLUITests;
+			productReference = CEDA62D1219165CF005453B9 /* TmdRLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA62AA219165CF005453B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tahmidhasan3003;
+				TargetAttributes = {
+					CEDA62B1219165CF005453B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CEDA62C5219165CF005453B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDA62B1219165CF005453B9;
+					};
+					CEDA62D0219165CF005453B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDA62B1219165CF005453B9;
+					};
+				};
+			};
+			buildConfigurationList = CEDA62AD219165CF005453B9 /* Build configuration list for PBXProject "TmdRL" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA62A9219165CF005453B9;
+			productRefGroup = CEDA62B3219165CF005453B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA62B1219165CF005453B9 /* TmdRL */,
+				CEDA62C5219165CF005453B9 /* TmdRLTests */,
+				CEDA62D0219165CF005453B9 /* TmdRLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA62B0219165CF005453B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA62C0219165CF005453B9 /* LaunchScreen.storyboard in Resources */,
+				CEDA62BD219165CF005453B9 /* Assets.xcassets in Resources */,
+				CEDA62BB219165CF005453B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62C4219165CF005453B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62CF219165CF005453B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA62AE219165CF005453B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA62B8219165CF005453B9 /* ViewController.swift in Sources */,
+				CEDA62E621916DD1005453B9 /* LIViewController.swift in Sources */,
+				CEDA62E421916DB2005453B9 /* RViewController.swift in Sources */,
+				CEDA62B6219165CF005453B9 /* AppDelegate.swift in Sources */,
+				CEDA62E821916DE1005453B9 /* PViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62C2219165CF005453B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA62CB219165CF005453B9 /* TmdRLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA62CD219165CF005453B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA62D6219165CF005453B9 /* TmdRLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDA62C8219165CF005453B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA62B1219165CF005453B9 /* TmdRL */;
+			targetProxy = CEDA62C7219165CF005453B9 /* PBXContainerItemProxy */;
+		};
+		CEDA62D3219165CF005453B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA62B1219165CF005453B9 /* TmdRL */;
+			targetProxy = CEDA62D2219165CF005453B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDA62B9219165CF005453B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA62BA219165CF005453B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDA62BE219165CF005453B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA62BF219165CF005453B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA62D8219165CF005453B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA62D9219165CF005453B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDA62DB219165CF005453B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDA62DC219165CF005453B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDA62DE219165CF005453B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TmdRL.app/TmdRL";
+			};
+			name = Debug;
+		};
+		CEDA62DF219165CF005453B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TmdRL.app/TmdRL";
+			};
+			name = Release;
+		};
+		CEDA62E1219165CF005453B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TmdRL;
+			};
+			name = Debug;
+		};
+		CEDA62E2219165CF005453B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TmdRLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahmidhasan3003.TmdRLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TmdRL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA62AD219165CF005453B9 /* Build configuration list for PBXProject "TmdRL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA62D8219165CF005453B9 /* Debug */,
+				CEDA62D9219165CF005453B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA62DA219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA62DB219165CF005453B9 /* Debug */,
+				CEDA62DC219165CF005453B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA62DD219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA62DE219165CF005453B9 /* Debug */,
+				CEDA62DF219165CF005453B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA62E0219165CF005453B9 /* Build configuration list for PBXNativeTarget "TmdRLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA62E1219165CF005453B9 /* Debug */,
+				CEDA62E2219165CF005453B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA62AA219165CF005453B9 /* Project object */;
+}
